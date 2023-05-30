@@ -1,0 +1,39 @@
+.account-container{
+    text-align: center;
+    margin: 60px 0;
+    .title{
+        font-size: 40px;
+    }
+}
+.Mycard{
+    width: 45%;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 50px 20px;
+    .content{
+        text-align: start;
+        font-size: 22px;
+        margin-left: 110px;
+        div:not(:first-child){
+            margin-top: 20px;
+        }
+        span{
+            color: gray;
+        }
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        a{
+            width: 50% ;
+            &:first-child{
+                margin-top: 50px;
+            }
+        }
+    }
+    
+}

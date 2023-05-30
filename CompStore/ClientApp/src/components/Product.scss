@@ -1,0 +1,112 @@
+﻿.products {
+    margin-top: 270px !important;
+    padding-top: 40px;
+    text-align: center;
+    position: relative;
+
+    .title {
+        width: 100%;
+    }
+
+    .cards {
+        width: 60%;
+        margin: 0 auto;
+
+        .bigcard {
+            margin-top: 40px;
+            transition: 0.3s;
+
+            &:hover {
+                transform: translate(5px, 5px);
+            }
+        }
+
+        .line {
+            height: 6px;
+            width: 100%;
+            background-image: linear-gradient(to right, #051937, #00bf72);
+            background-size: 400% 400%;
+            animation: lineColor 3s infinite;
+        }
+
+        .card {
+            background-color: white;
+            padding: 25px 40px 40px 40px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            transition: 0.4s;
+
+            .title {
+                font-size: 24px;
+            }
+
+            .subtitle {
+                color: gray;
+            }
+
+            .desc {
+                margin-top: 20px;
+                letter-spacing: 1px;
+
+                img {
+                    width: 40%;
+                }
+
+                span {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .showProduct {
+        width: 100%;
+        margin-top: 40px;
+        text-align: center;
+
+        button {
+            align-items: center;
+            appearance: none;
+            background-color: #fff;
+            border-radius: 4px;
+            border-width: 0;
+            box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+            box-sizing: border-box;
+            color: #36395A;
+            cursor: pointer;
+            display: inline-flex;
+            font-family: "JetBrains Mono", monospace;
+            height: 48px;
+            justify-content: center;
+            line-height: 1;
+            list-style: none;
+            overflow: hidden;
+            padding-left: 16px;
+            padding-right: 16px;
+            position: relative;
+            text-align: left;
+            text-decoration: none;
+            transition: box-shadow .15s, transform .15s;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            white-space: nowrap;
+            will-change: box-shadow, transform;
+            font-size: 18px;
+        }
+
+        button:focus {
+            box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+        }
+
+        button:hover {
+            box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+            transform: translateY(-2px);
+            color: #00bf72;
+        }
+
+        button:active {
+            box-shadow: #D6D6E7 0 3px 7px inset;
+            transform: translateY(2px);
+        }
+    }
+}

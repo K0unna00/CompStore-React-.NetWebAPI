@@ -1,0 +1,45 @@
+﻿.left {
+    width: 40%;
+
+    .name {
+        font-size: 50px;
+        letter-spacing: 3px;
+    }
+
+    .line {
+        height: 6px;
+        width: 0;
+        background-image: linear-gradient(to right, #051937, #00bf72);
+        animation: line 1s both;
+        animation-delay: 1s;
+        border-radius: 3px;
+    }
+
+    a {
+        display: inline-block;
+        margin-top: 20px;
+        color: #00bf72;
+        text-decoration: none;
+        transition: 0.2s;
+        &:hover{
+            color: #00bf72;
+            text-decoration: none;
+            transform: scale(1.1);
+            
+        }
+    }
+}
+
+.right {
+    width: 50%;
+
+    img {
+        width: 80%;
+        margin-right: 50px;
+        left: 40px;
+        animation: hero 2s 1 ease-in-out both;
+        transform: translateX(200%);
+        opacity: 0;
+        border-radius: 3%;
+    }
+}

@@ -1,0 +1,247 @@
+﻿@-webkit-keyframes hero {
+    0% {
+    }
+
+    50% {
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+
+    75% {
+        opacity: 1;
+        -webkit-transform: translateY(22px);
+        transform: translateY(22px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes hero {
+    0% {
+    }
+
+    50% {
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+
+    75% {
+        opacity: 1;
+        -webkit-transform: translateY(22px);
+        transform: translateY(22px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes lineColor {
+    0% {
+        background-position: 0% 20%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 20%;
+    }
+}
+
+@keyframes lineColor {
+    0% {
+        background-position: 0% 20%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 20%;
+    }
+}
+
+@-webkit-keyframes line {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes line {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@-webkit-keyframes down {
+    0% {
+        opacity: 0.2;
+        top: 420px;
+    }
+
+    50% {
+        opacity: 1;
+        top: 470px;
+    }
+
+    100% {
+        opacity: 0.5;
+        top: 420px;
+    }
+}
+
+@keyframes down {
+    0% {
+        opacity: 0.2;
+        top: 420px;
+    }
+
+    50% {
+        opacity: 1;
+        top: 470px;
+    }
+
+    100% {
+        opacity: 0.5;
+        top: 420px;
+    }
+}
+
+.icons i {
+    position: absolute;
+    color: #96afa5;
+}
+
+.icons .fa-laptop {
+    font-size: 82px;
+    top: 580px;
+    right: 40px;
+    -webkit-animation: icon1 3s 0s infinite linear;
+    animation: icon1 3s 0s infinite linear;
+}
+
+.icons .fa-desktop {
+    font-size: 22px;
+    top: 340px;
+    left: 0;
+    -webkit-animation: icon1 3s 1.5s infinite linear;
+    animation: icon1 3s 1.5s infinite linear;
+}
+
+.icons .fa-computer {
+    font-size: 42px;
+    top: 600px;
+    left: 120px;
+    -webkit-animation: icon2 3s 0.4s infinite linear;
+    animation: icon2 3s 0.4s infinite linear;
+}
+
+.icons .fa-laptop-code {
+    font-size: 82px;
+    top: 800px;
+    left: 20px;
+    -webkit-animation: icon1 3s 1.2s infinite linear;
+    animation: icon1 3s 1.2s infinite linear;
+}
+
+.icons .fa-keyboard {
+    font-size: 22px;
+    top: 920px;
+    -webkit-animation: icon2 3s 0.7s infinite linear;
+    animation: icon2 3s 0.7s infinite linear;
+}
+
+.icons .fa-power-off {
+    font-size: 42px;
+    top: 400px;
+    -webkit-animation: icon2 3s 0.3s infinite linear;
+    animation: icon2 3s 0.3s infinite linear;
+}
+
+@-webkit-keyframes icon1 {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    50% {
+        -webkit-transform: translateY(15px);
+        transform: translateY(15px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes icon1 {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    50% {
+        -webkit-transform: translateY(15px);
+        transform: translateY(15px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes icon2 {
+    0% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+
+    50% {
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
+    }
+
+    100% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes icon2 {
+    0% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+
+    50% {
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
+    }
+
+    100% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+/*# sourceMappingURL=animations.css.map */

@@ -1,0 +1,23 @@
+.form-container{
+    margin-top: 70px !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 35px;
+    border-radius: 20px;
+    .title{
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+}
+form{
+    justify-content: space-between;
+    padding: 15px 15px 15px 0;
+
+    input, textarea{
+        margin: 15px 0;
+        padding: 10px;
+        border: 1px solid rgb(202, 202, 202);
+    }
+}
+Iframe{
+    margin-top: 30px;
+}

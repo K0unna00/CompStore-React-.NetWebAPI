@@ -1,0 +1,29 @@
+﻿#footer {
+    width: 100%;
+    margin-top: 240px;
+    .footer {
+        width: 60%;
+        text-align: center;
+        background-color: #f3f3f3;
+
+        .links {
+            width: 100%;
+
+            i {
+                font-size: 30px;
+                margin: 0 20px;
+                color: black;
+                transition: 0.2s;
+
+                &:hover {
+                    transform: scale(1.2);
+                    color: #066d44;
+                }
+            }
+        }
+        .subtitle {
+            margin-top:30px;
+            width: 100%;
+        }
+    }
+}

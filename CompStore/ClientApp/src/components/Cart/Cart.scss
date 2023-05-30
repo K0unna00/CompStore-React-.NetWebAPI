@@ -1,0 +1,125 @@
+img {
+    width: 100%;
+}
+
+.cart-card {
+    width: 100%;
+    text-align: center;
+
+    .title {
+        font-size: 38px;
+        margin: 45px 0;
+    }
+
+    .main-card {
+        width: 80%;
+        background-color: white;
+        margin: 0 auto;
+        min-height: 500px;
+        border-radius: 20px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 20px;
+        padding-top: 0;
+
+        button {
+            font-size: 22px;
+            transition: 0.3s;
+
+        }
+
+        tbody {
+            td {
+                width: 300px;
+
+                .cart-img {
+                    width: 18%;
+
+                    img {
+                        max-height: 100px;
+                        border-radius: 12px;
+                    }
+                }
+            }
+
+            .cart-desc {
+                width: 550px;
+                display: flex;
+                margin: 0;
+                align-items: center;
+
+                .name {
+                    font-size: 22px;
+                    margin: 0 20px;
+                }
+            }
+
+            .quantity {
+                span {
+                    margin: 0 5px;
+                    font-size: 20px;
+                }
+
+                button {
+                    width: 20px;
+                    height: 20px;
+                    transition: 0.3s;
+
+                    &:hover {
+                        color: #16C47E;
+                    }
+                }
+            }
+            
+
+        }
+    }
+}
+.bottom{
+    width: 100%;
+    text-align: end;
+}
+.checkOut {
+    margin: 20px;
+    align-items: center;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+.checkOut:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.checkOut:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    text-decoration:none;
+    transform: translateY(-2px);
+}
+
+.checkOut:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}

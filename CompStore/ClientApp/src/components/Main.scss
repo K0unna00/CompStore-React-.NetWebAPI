@@ -1,0 +1,20 @@
+﻿main {
+    padding-top: 200px;
+    position: relative;
+    background-color: #F5F5F5;
+    .down
+
+{
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+    left: 20px;
+    top: 500px;
+    font-size: 25px;
+    animation: down 2.2s infinite linear;
+    animation-delay: 2.2s;
+}
+
+
+padding-bottom: 50px;
+}

@@ -1,0 +1,25 @@
+.myCard {
+  width: 700px;
+  margin: 60px 0;
+  background-color: white;
+  padding: 50px;
+  border-radius: 20px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.myCard .title {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.myCard .cardImage img {
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+
+.myCard .content {
+  text-align: start;
+}
+/*# sourceMappingURL=ProudyctDetail.css.map */

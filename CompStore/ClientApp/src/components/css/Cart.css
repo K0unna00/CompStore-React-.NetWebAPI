@@ -1,0 +1,77 @@
+img {
+  width: 100%;
+}
+
+.cart-card {
+  width: 100%;
+  text-align: center;
+}
+
+.cart-card .title {
+  font-size: 38px;
+  margin: 45px 0;
+}
+
+.cart-card .main-card {
+  width: 80%;
+  background-color: white;
+  margin: 0 auto;
+  min-height: 500px;
+  border-radius: 20px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+  padding-top: 0;
+}
+
+.cart-card .main-card button {
+  font-size: 22px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.cart-card .main-card tbody td {
+  width: 300px;
+}
+
+.cart-card .main-card tbody td .cart-img {
+  width: 18%;
+}
+
+.cart-card .main-card tbody td .cart-img img {
+  max-height: 100px;
+  border-radius: 12px;
+}
+
+.cart-card .main-card tbody .cart-desc {
+  width: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cart-card .main-card tbody .cart-desc .name {
+  font-size: 22px;
+  margin: 0 20px;
+}
+
+.cart-card .main-card tbody .quantity span {
+  margin: 0 5px;
+  font-size: 20px;
+}
+
+.cart-card .main-card tbody .quantity button {
+  width: 20px;
+  height: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.cart-card .main-card tbody .quantity button:hover {
+  color: #16C47E;
+}
+/*# sourceMappingURL=Cart.css.map */

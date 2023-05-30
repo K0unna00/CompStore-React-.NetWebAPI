@@ -1,0 +1,182 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainTitle {
+    font-size: 40px;
+    text-align: center;
+    margin-top:30px;
+}
+
+.productBtn {
+    margin: 20px;
+    align-items: center;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+}
+
+.productBtn:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.productBtn:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    text-decoration:none;
+    transform: translateY(-2px);
+}
+
+.productBtn:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+.productCard {
+    transition: 0.4s;
+    margin-top: 30px;
+    .bigcard {
+        margin-top: 40px;
+        transition: 0.3s;
+
+        &:hover {
+            transform: translate(5px, 5px);
+        }
+    }
+
+    .line {
+        height: 6px;
+        width: 100%;
+        background-image: linear-gradient(to right, #051937, #00bf72);
+        background-size: 400% 400%;
+        animation: lineColor 3s infinite;
+    }
+
+    .card {
+        background-color: white;
+        padding: 25px 40px 40px 40px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        transition: 0.4s;
+        width: 350px;
+        height: 450px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+
+        .title {
+            font-size: 24px;
+            width: 100%;
+            text-align: center;
+            height: 15%;
+            margin-top: 15px;
+        }
+
+        .Price {
+            height: 10%;
+            color: gray;
+            display: flex;
+            justify-content: space-between;
+            i{
+                color: gold;
+            }
+        }
+
+        .img {
+            width: 80%;
+            max-height: 60%;
+            img {
+                width: 100%;
+                max-width: 295px;
+                height:100% ;
+            }
+        }
+        .adminBTNs {
+            height: 15%;
+            
+            a, button{
+                font-weight: normal;
+                font-size: 14px;
+            }
+        }
+    }
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+.main-section{
+    width: 85%;
+    display: flex;
+    margin: 40px auto;
+}
+.allProducts{
+    // padding:40px;
+    display:flex;
+    // justify-content: space-around;
+    gap:20px;
+    flex-wrap:wrap;
+    width: 75%;
+    margin: 0 auto;
+    /*justify-content:space-between;*/
+}
+.filter-section{
+    font-family: "JetBrains Mono",monospace;
+    background-color: white;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: start;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    height: max-content;
+    label{
+        display: flex;
+        align-items: center;
+        span{
+            font-size: 18px;
+            margin-left: 7px;
+        }
+    }
+    select{
+        width: 100%;
+        margin: 4px;
+        font-size: 18px;
+        padding: 3px;
+    }
+    input{
+        width: 25px;
+        height: 25px;
+        margin: 4px;
+        border-radius: 6px;
+        color: #00bf72;
+        accent-color: red !important;
+    }
+}
